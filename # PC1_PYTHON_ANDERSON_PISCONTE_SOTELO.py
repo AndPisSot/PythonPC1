@@ -9,7 +9,7 @@
 
 
 nombre = input("Introduce tu nombre: ")
-print("¡Hola " + nombre + "!")
+print('¡Hola {}!'.format(nombre))
 
 # Problema 2:
 # En los Estados Unidos, se acostumbra dejar una propina a su mesero después de cenar en un
@@ -22,8 +22,7 @@ print("¡Hola " + nombre + "!")
 comida=float(input("Consumo en el restaurant: $"))
 porcentaje_propina=float(input("Porcentaje de propina para el mesero: "))
 propina=(porcentaje_propina*comida)/100
-print("Monto a dejar como propina: $", propina)
-
+print('Monto a dejar como propina: ${}'.format(propina))
 
     
 
